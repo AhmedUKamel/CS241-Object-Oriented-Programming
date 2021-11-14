@@ -3,7 +3,8 @@
 
 This repository include the all solution of Tasks of Java.
 
-Available :
-Task 1 >> if statement
+Available : <br>
+Task 1
+Task 2
 
 Support me with follow :)
