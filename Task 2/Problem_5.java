@@ -6,7 +6,7 @@ class Problem_5{
         System.out.print("Enter your SSN = ");
         String ssn = new Scanner(System.in).next();
 
-        if (ssn.length() > 11 || ssn.length() < 11){
+        if (ssn.length() != 11){
             System.out.println("Invalid length");
         }
         else{
