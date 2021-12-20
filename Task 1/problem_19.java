@@ -2,17 +2,21 @@ import java.util.Scanner;
 public class problem_19 {
     public static void main(String[] args){
 
+        // Print note for user
         System.out.println("0 > single filer");
         System.out.println("1 > married jointly or qualifying widow (er)");
         System.out.println("2 > married separately");
         System.out.println("3 > head of household");
 
-        System.out.print("Enter your filing status = ");
+        // Get filing status
+        System.out.print("Enter your filing status : ");
         int status = new Scanner(System.in).nextInt();
-
-        System.out.print("Enter your taxable income = ");
+        
+        // Get taxable income
+        System.out.print("Enter your taxable income : ");
         double income = new Scanner(System.in).nextDouble();
 
+        // Calculate tax
         if (status == 0){
             if (income > 0 && income <= 8350)              System.out.println("Your tax is 10 % of " + income + " = " + income*0.1);
             else if (income >= 8351 && income <= 33950)    System.out.println("Yout tax is 15 % of " + income + " = " + income*0.15);

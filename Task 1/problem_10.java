@@ -2,9 +2,10 @@ import java.util.Random;
 public class problem_10 {
     public static void main(String[] args){
 
-        int month = new Random().nextInt(12);
-        month+=1;
+        // Generate random number
+        int month = new Random().nextInt(1, 12);
 
+        // Print month name
         switch(month){
         case 1:  System.out.println(month + " is January");   break;
         case 2:  System.out.println(month + " is February");  break;
