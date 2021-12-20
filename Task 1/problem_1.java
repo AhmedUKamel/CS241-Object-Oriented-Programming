@@ -10,6 +10,7 @@ class problem_1{
         // Speed in km/h
         double speed = distance / time;
 
+        // Print Speed
         System.out.println("Speed = " + speed + " km/h");
     }
 }
