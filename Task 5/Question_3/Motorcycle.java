@@ -1,4 +1,4 @@
-package Vehicle;
+package Question_3;
 public class Motorcycle extends Vehicle{
     private int manufacturerDiscount;
     private boolean hasSideCar;

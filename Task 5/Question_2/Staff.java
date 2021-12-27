@@ -1,4 +1,4 @@
-package Person;
+package Question_2;
 public class Staff extends Employee {
     private String title;
 

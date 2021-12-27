@@ -1,4 +1,4 @@
-package Vehicle;
+package Question_3;
 public class Vehicle {
     private int registration_number;
     private Person owner;

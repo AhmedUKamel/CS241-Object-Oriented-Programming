@@ -1,4 +1,4 @@
-package Invoice;
+package Question_1;
 public class Invoice{
     private int ID;
     private Customer customer;

@@ -1,4 +1,4 @@
-package Invoice;
+package Question_1;
 public class Customer {
     private int ID;
     private String name;

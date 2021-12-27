@@ -1,4 +1,4 @@
-package Vehicle;
+package Question_3;
 public class Person {
     private String name;
     private String address;

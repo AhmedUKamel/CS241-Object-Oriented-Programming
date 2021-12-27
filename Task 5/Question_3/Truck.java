@@ -1,4 +1,4 @@
-package Vehicle;
+package Question_3;
 public class Truck extends Vehicle {
     private int number_of_axles;
     private int weight;

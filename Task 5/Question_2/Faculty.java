@@ -1,4 +1,4 @@
-package Person;
+package Question_2;
 public class Faculty extends Employee {
     private double office_hours;
     private double rank;
