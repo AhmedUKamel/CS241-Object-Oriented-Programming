@@ -71,12 +71,12 @@ public class Vehicle {
     }
 
     public static void printDetails (Vehicle myVehicle){
-    String details =    "Registration Number : " + myVehicle.registration_number + 
-                        "\nOwner : \n" + myVehicle.owner.toString() + 
-                        "\nSpeed : " + myVehicle.speed +
-                        "\nRegular price : " + myVehicle.regular_price +
-                        "\nColor : " + myVehicle.color;
-    System.out.println(details);
+        String details =    "Registration Number : " + myVehicle.registration_number + 
+                            "\nOwner : \n" + myVehicle.owner.toString() + 
+                            "\nSpeed : " + myVehicle.speed +
+                            "\nRegular price : " + myVehicle.regular_price +
+                            "\nColor : " + myVehicle.color;
+        System.out.println(details);
     }
 
     public static void printDetails (Car myCar){
