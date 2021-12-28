@@ -36,10 +36,10 @@ public class Problem_18{
 		    nums[i] = Integer.parseInt(str[i]);
 		}
 		
-		// Call function for integers array
+		// Call eliminateDuplicates method
 		int[] eliminated = eliminateDuplicates(nums);
 		
-		// Print the eliminated array (new numbers)
+		// Print the eliminated array (eliminated)
 		System.out.print("The distinct numbers : ");
 		for (int i = 0; i < 10; i++){
 			if(new_numbers[i] != 0)					// To only avoid printing ZEROs
