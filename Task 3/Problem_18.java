@@ -42,8 +42,8 @@ public class Problem_18{
 		// Print the eliminated array (eliminated)
 		System.out.print("The distinct numbers : ");
 		for (int i = 0; i < 10; i++){
-			if(new_numbers[i] != 0)					// To only avoid printing ZEROs
-			System.out.print(new_numbers[i] + " ");
+			if(eliminated[i] != 0)					// To only avoid printing ZEROs
+			System.out.print(eliminated[i] + " ");
 		}
 	}
 	
