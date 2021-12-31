@@ -1,0 +1,12 @@
+public static void main(String[] args){
+    String s1 = Time.returnString1();
+    String s2 = Time.returnString1();
+    System.out.println(s1==s2);
+}
+Output:
+A)  true
+B)  false
+C)  Error
+D)  No correct answer
+
+--> B

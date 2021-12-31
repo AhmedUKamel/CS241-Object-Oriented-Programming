@@ -1,0 +1,18 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number n = new Number(5);
+        Test.Square(n);
+        System.out.println(n.toString(n));
+    }
+
+    public static void Square(Number n){
+        n.setValue(n, n.getValue(n) * n.getValue(n));
+    }
+}
+A)  Number1 : 5
+B)  Number1 : 25
+C)  Number1 : 10
+D)  No correct answer
+
+--> B 

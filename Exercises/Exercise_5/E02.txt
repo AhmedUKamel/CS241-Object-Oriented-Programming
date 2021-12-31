@@ -1,0 +1,14 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number n = new Number();
+        System.out.println(Number.toString(n));
+    }
+}
+Output:
+A)  Number : 
+B)  Number : 0
+C)  Number : null
+D)  No correct answer
+
+--> B

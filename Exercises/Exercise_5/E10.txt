@@ -1,0 +1,16 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number n1 = new Number(10);
+        int n2 = 15;
+        Number.setValue(n1, n2);
+        System.out.println(Number.toString(n1));
+    }
+}
+Output:
+A)  Number : 10
+B)  Number : 15
+C)  Number : 5
+D)  No correct answer
+
+--> B

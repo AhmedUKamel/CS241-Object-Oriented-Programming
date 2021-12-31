@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Car car1 = new Car("Land Cruiser", "Red", 1400);
+    Car car2 = car1;
+    System.out.println(car2.number_of_cars * car2.model);        
+}
+output:
+A)  2800
+B)  1400
+C)  0
+D)  No correct answer
+
+
+--> B

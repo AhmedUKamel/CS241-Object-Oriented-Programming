@@ -1,0 +1,16 @@
+public static void main(String[] args){
+    Complex complex1 = new Complex();
+    Complex complex2 = new Complex(2, 3);
+    Complex complex3 = new Complex(4, 5);
+    complex1.setImaginaryPart(complex2.getNumberOfComplexes());
+    complex1.setRealPart(complex3.getNumberOfComplexes());
+    System.out.println(Complex.toString());
+}
+Output:
+A)  3.0 + (3.0) I
+B)  3.0 + (2.0) I
+C)  2.0 + (3.0) I
+D)  No correct answer
+
+--> D
+Cannot make a static reference to the non-static method toString() from the type Complex.

@@ -1,0 +1,15 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        int n;
+        System.out.println(Number.toString(n));
+    }
+}
+Output:
+A)  Number : 
+B)  Number : 0
+C)  Number : null
+D)  No correct answer
+
+--> D
+Error: The local variable n may not have been initialized.

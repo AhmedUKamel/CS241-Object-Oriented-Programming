@@ -1,0 +1,21 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        int number = 10;
+        int n1 = Number.getValue(number++);
+        int n2 = 20;
+        System.out.println(Number.toString(number, n1));
+    }
+}
+A)  Number1 : 11
+    Number2 : 11
+
+B)  Number1 : 11
+    Number2 : 10
+
+C)  Number1 : 10
+    Number2 : 11
+
+D)  No correct answer
+
+--> B

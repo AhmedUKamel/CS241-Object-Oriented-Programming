@@ -1,0 +1,16 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number n = new Number();
+        System.out.println(n);
+    }
+}
+Output:
+A)  0
+B)  null
+C)  No output
+D)  No correct answer
+
+--> D
+Will print the address of object (n).
+Exercise_5.Number@4617c264

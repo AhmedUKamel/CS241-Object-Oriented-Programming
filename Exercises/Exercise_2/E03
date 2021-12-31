@@ -1,0 +1,12 @@
+public static void main(String[] args){
+    Car car = new Car("Land Cruiser", null, 1400);
+    System.out.println(car.comapny);
+}
+Output:
+A)  Land Cruiser
+B)  Toyota
+C)  null
+D)  No correct answer
+
+
+--> C

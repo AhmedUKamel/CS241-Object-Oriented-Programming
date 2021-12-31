@@ -1,0 +1,12 @@
+public static void main(String[] args){
+    Time time = new Time();
+    Time.delSecond(time);
+    System.out.println(time.toString());
+}
+Output:
+A)  00:00:00
+B)  23:59:59
+C)  00:00:01
+D)  No correct answer
+
+--> B

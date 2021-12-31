@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Time time1 = new Time(5, 36, 17);
+    Time time2 = new Time(7, 36, 18);
+    Time time3 = time1.delTime(time2);
+    System.out.println(time3.toString());
+}
+Output:
+A)  21:59:59
+B)  02:00:01
+C)  00:00:01
+D)  No correct answer
+
+--> A

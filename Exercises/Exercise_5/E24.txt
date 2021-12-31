@@ -1,0 +1,21 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number number = new Number(10);
+        int n2 = 20;
+        System.out.println(Number.toString(n1, number));
+    }
+}
+A)  Number1 : n1
+    Number2 : number
+
+B)  Number1 : 20
+    Number2 : 10
+
+C)  Number1 : 10
+    Number2 : 20
+
+D)  No correct answer
+
+--> D
+Error: number cannot be resolved to a variable.

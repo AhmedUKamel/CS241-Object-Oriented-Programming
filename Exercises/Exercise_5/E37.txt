@@ -1,0 +1,20 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number number = new Number(5);
+        int n = Test.getFive(number);
+        System.out.println(Number.toString(n));
+    }
+
+    public static int getFive(Number n){
+        return n.value + 5;
+    }
+}
+Output:
+A)  Number1 : 5
+B)  Number1 : 25
+C)  Number1 : 10
+D)  No correct answer
+
+--> D
+Error: The field Number.value is not visible.

@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Time time1 = new Time(12, 40, 20);
+    Time time2 = new Time(13, 15, 27);
+    Time time3 = time1.addTime(time2);
+    System.out.println(time3.toString());
+}
+Output:
+A)  25:55:47
+B)  01:55:47
+C)  00:55:47
+D)  No correct answer
+
+--> B

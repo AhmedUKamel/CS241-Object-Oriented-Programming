@@ -1,0 +1,14 @@
+public static void main(String[] args){
+    Time time1 = new Time(12, 10, 8);
+    Time time2 = time1.nextSecond();
+    Time time3 = time2.previousSecond();
+    System.out.println(time1.toString() == time3.toString());
+}
+Output:
+A)  true
+B)  false
+C)  Error
+D)  No correct answer
+
+--> B
+toString() returns String object with address.

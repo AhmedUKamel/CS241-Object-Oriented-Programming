@@ -1,0 +1,14 @@
+public static void main(String[] args){
+    Complex complex1 = new Complex(10, 30);
+    Complex complex2 = new Complex(10, 10);
+    Complex complex3 = complex1.subComplex(complex2);
+    complex3.printComplex();
+}
+Output:
+A)  0.0 + (20.0) I
+B)  0.0 + (-20.0) I
+C)  0.0 + (0.0) I
+D)  No correct answer
+
+--> D
+5.0 + (20.0) I

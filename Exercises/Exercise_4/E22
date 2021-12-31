@@ -1,0 +1,15 @@
+public static void main(String[] args){
+    String s1 = Time.returnString2();
+    String s2 = Time.returnString2();
+    System.out.println(s1==s2);
+}
+Output:
+A)  true
+B)  false
+C)  Error
+D)  No correct answer
+
+--> A
+I don't know why return true 🙂.
+According to toString() method it should return false.
+Search with me for reason.

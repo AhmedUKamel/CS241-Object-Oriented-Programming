@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Complex complex1 = new Complex(4, 5);
+    Complex complex2 = new Complex(2, 3);
+    Complex complex3 = complex2.addComplex(complex1);
+    System.out.println(complex3.toString());
+}
+Output:
+A)  6.0 + (8.0) I
+B)  8.0 + (6.0) I
+C)  14.0 + (14.0) I
+D)  No correct answer
+
+--> A

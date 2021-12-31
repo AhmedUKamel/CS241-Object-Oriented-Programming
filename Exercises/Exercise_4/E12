@@ -1,0 +1,14 @@
+public static void main(String[] args){
+    Time time = new Time(23, 59, 59);
+    Time.nextSecond(time);
+    System.out.println(time.toString());
+}
+Output:
+A)  00:00:00
+B)  23:59:59
+C)  00:00:01
+D)  No correct answer
+
+--> D
+Invalid range of second
+23:59:59

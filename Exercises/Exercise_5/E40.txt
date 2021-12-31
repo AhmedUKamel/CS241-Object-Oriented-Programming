@@ -1,0 +1,15 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        System.out.println("I Love Java.");
+    }
+}
+Output: 
+A)  I Hate Java.
+B)  I Hate Java very much.
+C)  I Hate Java so much.
+D)  No correct answer.
+
+--> D
+Correct: I Love Java.
+Just kidding 😅😂

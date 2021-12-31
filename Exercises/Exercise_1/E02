@@ -1,0 +1,12 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle();
+    System.out.println(rectangle1.getArea());
+}
+Output:
+A)  No output
+B)  0.0
+C)  null
+D)  No correct answer
+
+
+--> B

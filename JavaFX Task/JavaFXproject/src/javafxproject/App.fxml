@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #2E4053;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxproject.AppController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="662.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+        <tabs>
+          <Tab text="Register">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #3498DB;">
+                     <children>
+                        <Label alignment="CENTER" layoutX="38.0" layoutY="67.0" prefHeight="50.0" prefWidth="300.0" text="Username" textFill="WHITE" AnchorPane.bottomAnchor="360.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="101.0">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="38.0" layoutY="121.0" prefHeight="50.0" prefWidth="300.0" text="E-Mail" textFill="WHITE" AnchorPane.bottomAnchor="290.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="171.0">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="48.0" layoutY="175.0" prefHeight="50.0" prefWidth="300.0" text="Password" textFill="WHITE" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="241.0">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="43.0" layoutY="239.0" prefHeight="50.0" prefWidth="300.0" text="Confirm password" textFill="WHITE" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="311.0">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                        </Label>
+                        <Button layoutY="353.0" mnemonicParsing="false" onAction="#confirmButton" prefHeight="50.0" prefWidth="370.0" text="Confirm" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="440.0" AnchorPane.topAnchor="430.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="420.0" layoutY="353.0" mnemonicParsing="false" onAction="#resetButton" prefHeight="50.0" prefWidth="370.0" text="Reset" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="440.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="430.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="pass2_txt" layoutX="310.0" layoutY="317.0" prefWidth="500.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="322.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="username_txt" layoutX="303.0" layoutY="101.0" prefWidth="500.0" AnchorPane.bottomAnchor="360.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="112.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="mail_txt" layoutX="310.0" layoutY="177.0" prefWidth="500.0" AnchorPane.bottomAnchor="290.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="182.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="pass1_txt" layoutX="310.0" layoutY="247.0" prefWidth="500.0" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="252.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Label alignment="CENTER" layoutX="120.0" layoutY="29.0" text="Registeration Page" textFill="WHITE" AnchorPane.bottomAnchor="430.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="162.0" layoutY="91.0" text="By: Ahmed Hatem" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="734.0" AnchorPane.topAnchor="489.0" />
+                        <Label layoutX="735.0" layoutY="50.0" text="200019" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0" />
+                        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="298.0" layoutY="371.0" prefHeight="30.0" prefWidth="600.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="371.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Log in">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #3498DB;">
+                     <children>
+                        <Label alignment="CENTER" layoutX="30.0" layoutY="158.0" prefHeight="50.0" prefWidth="300.0" text="Username" textFill="WHITE" AnchorPane.bottomAnchor="280.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="181.0">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="158.0" layoutY="28.0" text="Log in Page" textFill="WHITE" AnchorPane.bottomAnchor="430.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="usrlog_txt" layoutX="252.0" layoutY="183.0" prefWidth="500.0" AnchorPane.bottomAnchor="280.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="192.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Button mnemonicParsing="false" onAction="#loginButton" prefHeight="50.0" prefWidth="370.0" text="Log in" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="440.0" AnchorPane.topAnchor="430.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="271.0" layoutY="69.0" mnemonicParsing="false" onAction="#forgetButton" prefHeight="50.0" prefWidth="370.0" text="Forget Password" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="440.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="430.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Label alignment="CENTER" layoutX="39.0" layoutY="244.0" prefHeight="50.0" prefWidth="300.0" text="Password" textFill="WHITE" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="261.0">
+                           <font>
+                              <Font name="System Bold Italic" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="paslog_txt" layoutX="268.0" layoutY="250.0" prefWidth="500.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="272.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="152.0" layoutY="81.0" text="By: Ahmed Hatem" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="734.0" AnchorPane.topAnchor="489.0" />
+                        <Label layoutX="162.0" layoutY="91.0" text="200019" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="791.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="489.0" />
+                        <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" layoutX="49.0" layoutY="344.0" prefHeight="30.0" prefWidth="600.0" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="371.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </TabPane>
+   </children>
+</AnchorPane>

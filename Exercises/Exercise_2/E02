@@ -1,0 +1,25 @@
+public static void main(String[] args){
+    Car car = new Car("BMW", "X6", "Red", 2021);
+    car.setName("Blue");
+    System.out.println(car.toString());
+}
+Output:
+A)  Full Name : BMW X6
+    Model : 2021
+    Color : Red
+    Number : 1
+B)  Full Name : BMW X6
+    Model : 2021
+    Color : Blue
+    Number : 1
+C)  Full Name : BMW Blue
+    Model : 2021
+    Color : Red
+    Number : 6
+D)  No correct answer
+
+--> D
+Full Name : BMW Blue
+Model : 2021
+Color : Red
+Number : 1

@@ -1,0 +1,20 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        int n1 = 10;
+        int n2 = 20;
+        System.out.println(Number.toString(n2, n1));
+    }
+}
+A)  Number1 : n1
+    Number2 : n2
+
+B)  Number1 : 20
+    Number2 : 10
+
+C)  Number1 : 10
+    Number2 : 20
+
+D)  No correct answer
+
+--> B

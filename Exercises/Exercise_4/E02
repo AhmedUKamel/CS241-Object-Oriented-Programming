@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Time time1 = new Time(12, 40, 20);
+    Time time2 = new Time(7, 15, 27);
+    System.out.println((time1+time2).toString());
+}
+Output:
+A)  19:55:47
+B)  12:40:20
+C)  07:15:27
+D)  No correct answer
+
+--> D
+Error: The operator + is undefined for the argument type(s) Time, Time.

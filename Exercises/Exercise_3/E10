@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Complex complex1 = new Complex(10, 30);
+    complex1 = complex1.subComplex(complex1);
+    System.out.println(Complex.toString(complex1));
+}
+Output:
+A)  10.0 + (30.0) I
+B)  -10.0 + (-30.0) I
+C)  0.0 + (-20.0) I
+D)  No correct answer
+
+--> D
+0.0 + (0.0) I

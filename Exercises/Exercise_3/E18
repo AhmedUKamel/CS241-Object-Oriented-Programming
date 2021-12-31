@@ -1,0 +1,11 @@
+public static void main(String[] args){
+    Complex complex1 = new Complex();
+    System.out.println(Complex.toString(complex1));
+}
+Output:
+A)  0.0 + (0.0) I
+B)   + () I
+C)  5.0 + (5.0) I
+D)  No correct answer
+
+--> A

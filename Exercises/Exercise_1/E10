@@ -1,0 +1,15 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle();
+    rectangle1.setWidth(10);
+    rectangle1.setLength(15);
+    rectangle1.setWidth(rectangle1.getLength());
+    System.out.println(rectangle1.getArea());
+}
+Output:
+A)  10.0 * 15.0
+B)  10.0 * 10.0
+C)  15.0 * 15.0
+D)  No correct answer
+
+
+--> C

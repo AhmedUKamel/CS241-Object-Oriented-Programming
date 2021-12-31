@@ -1,0 +1,14 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        int n = 3;
+        Number.Factorial(n);
+        System.out.println(Number.toString(n));
+    }
+}
+A)  Number1 : 3
+B)  Number1 : 9
+C)  Number1 : 6
+D)  No correct answer
+
+--> A

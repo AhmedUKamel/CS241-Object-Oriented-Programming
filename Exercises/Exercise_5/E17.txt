@@ -1,0 +1,14 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number n = new Number(100);
+        System.out.println(Number.getValue(n));
+    }
+}
+Output:
+A)  Number : 100
+B)  100
+C)  n
+D)  No correct answer
+
+--> B

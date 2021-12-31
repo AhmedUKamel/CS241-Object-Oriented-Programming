@@ -1,0 +1,22 @@
+public static void main(String[] args){
+    Car car = new Car();
+    car.setFullName("Honda", "Land Cruiser");
+    System.out.println(car.toString());     
+}
+Output:
+A)  Full Name : Toyota Land Cruiser
+    Model : 0
+    Color : null
+    Number : 1
+B)  Full Name : Honda Land Cruiser
+    Model : 0
+    Color : null
+    Number : 1
+C)  Full Name : null Land Cruiser
+    Model : 0
+    Color : null
+    Number : 1
+D)  No correct answer
+
+
+--> B

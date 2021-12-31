@@ -1,0 +1,14 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        int n = 150;
+        System.out.println('n');
+    }
+}
+Output:
+A)  Number : 150
+B)  150
+C)  n
+D)  No correct answer
+
+--> C

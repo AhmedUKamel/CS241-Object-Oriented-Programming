@@ -1,0 +1,15 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle();
+    rectangle1.setLength(15);
+    System.out.println(rectangle1.toString());
+}
+Output:
+A)  Length : 15.0
+    Width : null
+B)  Length : 15.0
+    Width : 15.0
+C)  Length : 15.0
+    Width : 0.0
+D)  No correct answer
+
+--> C

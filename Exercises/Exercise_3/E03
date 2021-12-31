@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Complex complex = new Complex();
+    complex.setImaginaryPart(-15);
+    System.out.println(complex.toString());
+}
+Output:
+A)  -15.0 + (0.0) I
+B)  0.0 + -(15.0) I
+C)  0.0 + (15.0) I
+D)  No correct answer
+
+--> D
+0.0 + (-15.0) Is

@@ -1,0 +1,12 @@
+public static void main(String[] args){
+    Complex complex1 = new Complex(10, 30);
+    System.out.println(complex1.printComplex());
+}
+Output:
+A)  10.0 + (30.0) I
+B)  30.0 + (10.0) I
+C)  0.0 + (0.0) I
+D)  No correct answer
+
+--> D
+The method println(boolean) in the type PrintStream is not applicable for the arguments (void).

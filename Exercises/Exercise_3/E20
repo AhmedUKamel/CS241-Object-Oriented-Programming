@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Complex c = new Complex();
+    c.imaginaryPart = 10;
+    c.printComplex();
+}
+Output:
+A)  5.0 + (10.0) I
+B)  0.0 + (10.0) I
+C)  10.0 + (0.0) I
+D)  No correct answer
+
+--> A
+Main function in the same class, it's allowed to access the private attributes.

@@ -1,0 +1,13 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle(155);
+    System.out.println(rectangle1.getPerimeter());
+}
+Output: 
+A)  155
+B)  0
+C)  156
+D)  No correct answer
+
+
+--> D
+Error: The constructor Rectangle(int) is undefined.

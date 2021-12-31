@@ -1,0 +1,12 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle(6, 6);
+    System.out.println(rectangle1.getArea());
+}
+Output:
+A)  6
+B)  36
+C)  36.0
+D)  No correct answer
+
+
+--> C

@@ -1,0 +1,25 @@
+public static void main(String[] args){
+    Time time1 = new Time(5, 36, 17);
+    Time time2 = new Time(7, 36, 18);
+    Time time3 = Time.delTime(time1, time2);
+    System.out.println(time3.toString());
+}
+Output:
+A)  Invalid range of hour
+    Invalid range of second
+    00:36:00
+
+B)  Invalid range of hour
+    Invalid range of second
+    21:00:00
+
+C)  Invalid range of hour
+    Invalid range of second
+    00:36:01
+
+D)  No correct answer
+
+--> D
+Invalid range of hour
+Invalid range of second
+00:00:00

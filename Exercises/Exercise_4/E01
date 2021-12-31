@@ -1,0 +1,11 @@
+public static void main(String[] args){
+    Time t = new Time(5, 9, 35);
+    System.out.println("Time : " + t.toString());
+}
+Output:
+A)  Time : 35:09:05
+B)  Time : 05:09:35
+C)  Time : 09:05:35
+D)  No correct answer
+
+--> B

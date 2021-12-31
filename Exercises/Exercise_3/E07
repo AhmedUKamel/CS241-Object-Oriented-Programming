@@ -1,0 +1,16 @@
+public static void main(String[] args){
+    System.out.println(new Complex().toString());
+    Complex test = new Complex(Complex.getNumberOfComplexes(), Complex.getNumberOfComplexes());
+    System.out.println(test.toString());
+}
+Output:
+A)  0.0 + (0.0) I
+    1.0 + (1.0) I
+B)  0.0 + (0.0) I
+    2.0 + (2.0) I
+C)  0.0 + (0.0) I
+    0.0 + (0.0) I
+D)  No correct answer
+
+--> A
+Personally expected answer will be B 😅

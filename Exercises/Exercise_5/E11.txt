@@ -1,0 +1,17 @@
+package Exercise_5;
+public class Test {
+    public static void main(String[] args){
+        Number n1 = new Number(10);
+        int n2 = 15;
+        Number.setValue(n2, n1);
+        System.out.println(Number.toString(n2));
+    }
+}
+Output:
+A)  Number : 10
+B)  Number : 15
+C)  Number : 5
+D)  No correct answer
+
+--> D
+Error: The method setValue(Number, int) in the type Number is not applicable for the arguments (int, Number).

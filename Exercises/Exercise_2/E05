@@ -1,0 +1,14 @@
+public static void main(String[] args){
+    Car car = new Car();
+    car.color = "Toyota";
+    car.setModel(20);
+    System.out.println(car.comapny);
+}
+Output:
+A)  Toyota
+B)  Land Cruiser
+C)  null
+D)  No correct answer
+
+--> D
+Unknown

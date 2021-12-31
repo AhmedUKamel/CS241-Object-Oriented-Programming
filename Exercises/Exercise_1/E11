@@ -1,0 +1,17 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle(2, 3);
+    Rectangle rectangle2 = new Rectangle();
+    rectangle2.setLength(rectangle1.width);
+    rectangle2.setWidth(rectangle1.length);
+    System.out.println(rectangle2.toString());
+}
+Output:
+A)  Length : 2.0
+    Width : 3.0
+B)  Length : 3.0
+    Width : 2.0
+C)  Length : 3.0
+    Width : 3.0
+D)  No correct answer
+
+--> B

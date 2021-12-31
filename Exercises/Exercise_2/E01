@@ -1,0 +1,25 @@
+public static void main(String[] args){
+    Car car = new Car();
+    System.out.println(car.toString());
+}
+Output:
+A)  Full Name : null null
+    Model : null
+    Color : null
+    Number : null
+B)  Full Name : null null
+    Model : 0
+    Color : null
+    Number : 0
+C)  Full Name : null null
+    Model : null
+    Color : null
+    Number : 1
+D)  No correct answer
+
+
+--> D
+Full Name : null null
+    Model : 0
+    Color : null
+    Number : 1

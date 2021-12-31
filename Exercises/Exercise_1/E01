@@ -1,0 +1,16 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle();
+    System.out.println(rectangle1.toString());
+}
+Output:
+A)  Length : 
+    Width : 
+B)  Length : 0.0
+    Width : 0.0
+C)  Length : null
+    Width : null
+D)  No correct answer
+
+
+
+--> B

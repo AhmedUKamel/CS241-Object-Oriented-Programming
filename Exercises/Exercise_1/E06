@@ -1,0 +1,16 @@
+public static void main(String[] args){
+    Rectangle rectangle1 = new Rectangle(10);
+    System.out.println(rectangle1.toString());
+}
+Output:
+A)  Length : 10.0
+    Width : null
+B)  Length : 0.0
+    Width : 10.0
+C)  Length : 10.0
+    Width : 0.0
+D)  No correct answer
+
+
+--> D
+Error: The constructor Rectangle(int) is undefined.

@@ -1,0 +1,24 @@
+public static void main(String[] args){
+    Car car = new Car();
+    car.setColor("Red");
+    car.setName("Sahin");
+    car.setModel(1500);
+    System.out.println(car.toString());
+}
+Output:
+A)  Full Name : null Sahin
+    Model : 0
+    Color : Red
+    Number : 1
+B)  Full Name : Unknown Sahin
+    Model : 0
+    Color : Red
+    Number : 1
+C)  Full Name : Unknown null
+    Model : 0
+    Color : Red
+    Number : 1
+D)  No correct answer
+
+
+--> C
