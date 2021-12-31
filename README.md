@@ -1,5 +1,5 @@
 # Object-Oriented Programming
-## In Java, 
+## In Java
 ## FCAI Beni Suef University 2021
 ### *This repository includes all java's tasks with solutions*
 <br>
