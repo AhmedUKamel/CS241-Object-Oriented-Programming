@@ -8,7 +8,7 @@ public class Vehicle {
     String color;
 
     // Constructors
-    public Vehicle(){
+    protected Vehicle(){
         // variables will be set to 'null' or ZEROS automatic
     }
 
@@ -21,23 +21,23 @@ public class Vehicle {
     }
 
     // Setters
-    public void setRegistrationNumber(int r){
+    protected void setRegistrationNumber(int r){
         this.registration_number = r;
     }
 
-    public void setOwner(Person o){
+    protected void setOwner(Person o){
         this.owner = o;
     }
 
-    public void setSpeed(int s){
+    protected void setSpeed(int s){
         this.speed = s;
     }
 
-    public void setRegularPrice(double r){
+    protected void setRegularPrice(double r){
         this.regular_price = r;
     }
 
-    public void setColor(String c){
+    protected void setColor(String c){
         this.color = c;
     }
 
@@ -71,3 +71,11 @@ public class Vehicle {
         this.owner = n;
     }
 }
+/*
+> In this class you can:
+ *  Create an empty Object (Vehicle()) from only this package or subclasses outside this package.
+ *  Create an non-empty Object (Vehicle(int r1, Person o, int s, double r2, String c)) from any Package or class.
+ *  Set any value from only this Package or subclasses outside this package.
+ *  Get any value from any package.
+ *  Use any Methods under 'Other Methods' from any package.
+**/
