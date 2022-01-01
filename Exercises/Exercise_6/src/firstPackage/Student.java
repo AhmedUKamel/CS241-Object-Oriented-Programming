@@ -122,8 +122,8 @@ public class Student extends Person {
 /*
 > In this class you can:
  *  Create an empty Object (Student()) from any Package or class.
- *  Create an non-empty Object from only this package or subclasses outside this package.
+ *  Create an non-empty Object from only this package.
  *  Set any value from any Package.
- *  Get any value from only this package or subclasses outside this package.
+ *  Get any value from only this package.
  *  Use any Methods under 'Other Methods' from any package.
 **/

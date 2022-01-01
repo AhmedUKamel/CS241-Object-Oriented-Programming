@@ -91,9 +91,9 @@ public class Person {
 > In this class you can:
  *  Create an empty Object (Person()) from any Package or class.
  *  Create an non-empty Object (Person(String n, String a)) 
-    from only this package or subclasses outside this package.
+    from only this package.
  *  Create an non-empty Object (Person(String n, String a, double s, String g, double t)) from only this class.
- *  Set any value from only this Package or subclasses outside this package.
+ *  Set any value from only this Package.
  *  Get any value from any package.
  *  Use any Methods under 'Other Methods' from any package.
 **/

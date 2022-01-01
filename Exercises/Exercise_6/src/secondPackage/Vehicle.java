@@ -73,9 +73,9 @@ public class Vehicle {
 }
 /*
 > In this class you can:
- *  Create an empty Object (Vehicle()) from only this package or subclasses outside this package.
+ *  Create an empty Object (Vehicle()) from only this package.
  *  Create an non-empty Object (Vehicle(int r1, Person o, int s, double r2, String c)) from any Package or class.
- *  Set any value from only this Package or subclasses outside this package.
+ *  Set any value from only this Package.
  *  Get any value from any package.
  *  Use any Methods under 'Other Methods' from any package.
 **/
