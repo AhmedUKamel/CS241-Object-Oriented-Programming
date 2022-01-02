@@ -1,0 +1,46 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst3 extends Vehicle {
+    public static void main(String[] args){
+        Student student = new Student();
+        print(student);
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : null
+
+
+B)  Name : student
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+    GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : null
+
+
+C)  Name : null
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+    GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : null
+
+
+D)  No correct answer
+
+--> D
+Error: The method print(String) in the type TestFirst3 is not applicable for the arguments (Student).

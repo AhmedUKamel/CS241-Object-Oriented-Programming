@@ -1,0 +1,19 @@
+package secondPackage;
+import firstPackage.*;
+public class TestSecond1 extends TestFirst1 {
+    public static void main(String...args){
+        Student student = Student.addStudentAndPerson("Ahmed", "Beni Suef", 150000, "Male", 185,  3.2, 200019, 2, "CS");
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Ahmed
+B)  No output
+C)  student
+D)  No correct answer
+
+--> B

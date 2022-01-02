@@ -1,0 +1,20 @@
+package secondPackage;
+import firstPackage.*;
+public class TestSecond1 extends TestFirst1 {
+    public static void main(String...args){
+        Student student = Student.addStudentOnlyINFO(3.2, 200019, 2, "CS");
+        print(""+student.getGPA(student));
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  2
+B)  200019
+C)  3.2
+D)  No correct answer
+
+--> C

@@ -1,0 +1,38 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst1 extends Student {
+    public static void main(String...args){
+        Person person = new Person();
+        person.setName("Ahmed");
+        person.setAddress("185");
+        person.setTall(Integer.parseInt(person.getAddress()));
+        print(person.toString());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Name : Ahmed
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 185.0
+
+B)  Name : Ahmed
+    Address : 185.0
+    Salary : 0.0
+    Gender : null
+    Tall : 185.0
+
+C)  Name : Ahmed
+    Address : 185
+    Salary : 0.0
+    Gender : null
+    Tall : 185.0
+
+D)  No correct answer
+
+--> C 

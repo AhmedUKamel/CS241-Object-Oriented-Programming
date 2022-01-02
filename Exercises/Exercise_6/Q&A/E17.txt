@@ -1,0 +1,49 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst3 extends Vehicle {
+    public static void main(String[] args){
+        Person person = new Person("Ahmed", "Beni Suef", 15000, "Male", 185);
+        Student student = Student.clonePersonIntoStudent(person);
+        print(student.toString());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Name : Ahmed
+    Address : Beni Suef
+    Salary : 15000.0
+    Gender : Male
+    Tall :  185.0
+    GPA : 3.2
+    Code : 200019
+    Level : 2
+    Specialization : CS
+
+B)  Name : Ahmed
+    Address : Beni Suef
+    Salary : 15000.0
+    Gender : Male
+    Tall :  185.0
+    GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : null
+
+C)  Name : Ahmed
+    Address : Beni Suef
+    Salary : 15000.0
+    Gender : Male
+    Tall :  185.0
+    GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : 
+
+D)  No correct answer
+
+--> D
+Error: The constructor Person(String, String, double, String, double) is not visible.

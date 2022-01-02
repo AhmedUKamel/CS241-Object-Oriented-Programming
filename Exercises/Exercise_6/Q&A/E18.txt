@@ -1,0 +1,48 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst3 extends Vehicle {
+    public static void main(String[] args){
+        Person person = new Person();
+        Student student = Student.clonePersonIntoStudent(person);
+        print(student.toString());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Name : Ahmed
+    Address : Beni Suef
+    Salary : 15000.0
+    Gender : Male
+    Tall :  185.0
+    GPA : 3.2
+    Code : 200019
+    Level : 2
+    Specialization : CS
+
+B)  Name : null
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+    GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : null
+
+C)  Name : 
+    Address : 
+    Salary : 0.0
+    Gender : 
+    Tall : 0.0
+    GPA : 0.0
+    Code : 0
+    Level : 0
+    Specialization : 
+
+D)  No correct answer
+
+--> B 

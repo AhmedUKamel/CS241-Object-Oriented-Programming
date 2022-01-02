@@ -1,0 +1,38 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst1 extends Student {
+    public static void main(String...args){
+        Person person = new Person();
+        person.setName("Ahmed");
+        person.setTall("185");
+        print(person.toString());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Name : Ahmed
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 185.0
+
+B)  Name : Ahmed
+    Address : 
+    Salary : 0.0
+    Gender : 
+    Tall : 185.0
+
+C)  Name : null
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 185.0
+
+D)  No correct answer
+
+--> D
+Error: The method setTall(double) in the type Person is not applicable for the arguments (String).

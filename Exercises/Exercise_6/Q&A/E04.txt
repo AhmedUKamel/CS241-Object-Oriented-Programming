@@ -1,0 +1,35 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst1 extends Student {
+    public static void main(String...args){
+        Person person = new Person();
+        print(person.toString());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Name : person
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+
+B)  Name : 
+    Address : 
+    Salary : 0.0
+    Gender : 
+    Tall : 0.0
+
+C)  Name : null
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+
+D)  No correct answer
+
+--> C

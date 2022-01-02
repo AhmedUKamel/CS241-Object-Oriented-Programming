@@ -1,0 +1,9 @@
+1. How to create empty Vehicle Object from TestFirst1 class in 2 different ways?
+2. How to set All Person's attributes by one Method or Constructor outside Person class?
+3. How to set only Student's attributes by one Method or Constructor from TestSecond1 class?
+4. How to set All Student's (Inherited) attributes by one Method or Constructor from any class?
+5. How to set new Person's name from TestSecond1 class?
+6. How to set new Person's address only from TestSecond1 class?
+7. How to set new Car's number of doors from TestFirst1?
+8. How to set new Vehicle's owner from TestFirst1 in 2 different ways?
+9. How to set new Vehicle's speed from TestFirst1?

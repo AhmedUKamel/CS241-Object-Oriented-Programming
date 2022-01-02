@@ -1,0 +1,20 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst1 extends Student {
+    public static void main(String...args){
+        Person person = new Person();
+        print(person.getName());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  person
+B)  null
+C)  0.0
+D)  No correct answer
+
+--> B

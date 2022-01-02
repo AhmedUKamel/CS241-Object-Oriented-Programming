@@ -1,0 +1,48 @@
+package firstPackage;
+import secondPackage.*;
+public class TestFirst3 extends Vehicle {
+    public static void main(String[] args){
+        Student student = new Student(3.2, 200019, 2, "CS");
+        student.setName("Ahmed");
+        print(student.toString());
+    }
+
+    // Only to Ease the print process.
+    public static void print(String str){
+        System.out.println(str);
+    }
+}
+Output:
+A)  Name : Ahmed
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+    GPA : 3.2
+    Code : 200019
+    Level : 2
+    Specialization : CS
+
+B)  Name : student
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+    GPA : 3.2
+    Code : 200019
+    Level : 2
+    Specialization : CS
+
+C)  Name : null
+    Address : null
+    Salary : 0.0
+    Gender : null
+    Tall : 0.0
+    GPA : 3.2
+    Code : 200019
+    Level : 2
+    Specialization : CS
+
+D)  No correct answer
+
+--> A
