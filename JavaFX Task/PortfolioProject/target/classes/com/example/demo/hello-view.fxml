@@ -14,12 +14,12 @@
             <Image url="file:/D:/5%20Github-clones/Java/JavaFX%20Task/PortfolioProject/src/Images/img%20(1).jpg" />
          </image>
       </ImageView>
-      <Button fx:id="prev" layoutX="256.0" layoutY="510.0" mnemonicParsing="false" onAction="#prevFun" prefHeight="50.0" prefWidth="200.0" text="Previous" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="579.0">
+      <Button fx:id="prev" layoutX="256.0" layoutY="510.0" mnemonicParsing="false" onAction="#prevFun" prefHeight="50.0" prefWidth="200.0" text="Image 8" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="579.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Button>
-      <Button fx:id="next" layoutX="561.0" layoutY="561.0" mnemonicParsing="false" onAction="#nextFun" prefHeight="50.0" prefWidth="200.0" text="Next" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="510.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="579.0">
+      <Button fx:id="next" layoutX="561.0" layoutY="561.0" mnemonicParsing="false" onAction="#nextFun" prefHeight="50.0" prefWidth="200.0" text="Image 2" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="510.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="579.0">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

@@ -24,6 +24,8 @@ public class HelloController {
     @FXML
     private void nextFun(){
         click = (++click) % 8;
+        next.setText("Image "+(((click+1)%8)+1));
+        prev.setText("Image "+(((click+7)%8)+1));
         file = new File("src/Images/" + paths[click]);
         img = new Image(file.toURI().toString());
         imgv.setImage(img);
@@ -32,6 +34,8 @@ public class HelloController {
     @FXML
     private void prevFun(){
         if(--click<0) click+=8;
+        next.setText("Image "+(((click+1)%8)+1));
+        prev.setText("Image "+(((click+7)%8)+1));
         file = new File("src/Images/" + paths[click]);
         img = new Image(file.toURI().toString());
         imgv.setImage(img);
