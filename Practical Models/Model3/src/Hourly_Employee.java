@@ -24,11 +24,11 @@ public class Hourly_Employee extends Employee {
 
     /*
     Ans2:
-    Type    @Override
+    Add    @Override
             public double getSalary(){
                 return Working_Hour * Hour_Rate;
             }
     */
 
-    // End of Question.
+    // End of Question 2
 }

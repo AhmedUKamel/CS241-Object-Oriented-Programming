@@ -7,10 +7,10 @@ public class Main {
 
         /*
         Ans1:
-        replace System.out.println(s1.getLevel());
-        with System.out.println(Student.getLevel(s1));
+        replace     System.out.println(s1.getLevel());
+        with        System.out.println(Student.getLevel(s1));
         */
 
-        // End of Question.
+        // End of Question 1
     }
 }

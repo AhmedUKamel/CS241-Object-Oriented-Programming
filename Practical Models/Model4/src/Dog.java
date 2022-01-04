@@ -1,37 +1,34 @@
 public class Dog {
     private String name;
 
-    // Constructor
     public Dog(String name) {
         this.name = name;
     }
 
     /*
-    Ans1:
+    Ans3:
     Add     extends Animal to public class Dog
-    And     @Override
+    And     public Dog(){}
+
+            @Override
             public void speak() {
-                System.out.print("woof");
+                System.out.println("woof");
             }
 
             @Override
             public void eat() {
-                System.out.print("num num");
+                System.out.println("num num");
             }
     */
 
     // Q2: Add an equals method to this class that returns true if the current Dog and passed Dog have the same name. The code should print false twice then true twice.
-    
-    
+
     /*
     Ans2:
     Add     public boolean equals(Dog dog){
-                if(dog.name==this.name)
-                    return true;
-                else
-                    return false;
+                return this.name == dog.name;
             }
     */
-    
-    //End of Question 2
+
+    // End of Question 2
 }

@@ -14,8 +14,9 @@ ___
   * Task 6 (in progress)
 * Midterm exam
 * JavaFX Task
+  * Registration form project
   * Portfolio project
-  * Registration page project
+  * Shapes project
 * Exercises
   * Exercise 1
   * Exercise 2
@@ -23,6 +24,11 @@ ___
   * Exercise 4
   * Exercise 5
   * Exercise 6
+* Practical Models
+  * Model 2
+  * Model 3
+  * Model 4
+  * Model 5
 ___
 # *FCI Assuit:*
 * Midterm exam

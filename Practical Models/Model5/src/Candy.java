@@ -2,14 +2,11 @@ public class Candy {
     double pricPerPound;
     String name;
 
-    // Constructor
-    public Candy(){}
-    
     public String taste() {
         return "tastes sweet!";
     }
-
     // Q3: Create abstract methods , get_PricPerPound() return pricPerPound and get_Name() return name.
+    // Correctly finish the Chocolate subclass for the following abstract Candy class. Override the abstract methods
 
     /*
     Ans3:
@@ -19,11 +16,5 @@ public class Candy {
             public abstract String get_Name();
     */
 
-    // Correctly finish the Chocolate subclass for the following abstract Candy class. Override the abstract methods
-
-    /*
-    Answer in Chocolate class
-    */
-
-    // End of Question
+    // End of Question 3
 }

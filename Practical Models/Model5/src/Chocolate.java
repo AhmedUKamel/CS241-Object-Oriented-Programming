@@ -1,21 +1,28 @@
 public class Chocolate {
-    // Constructor
-    Chocolate (){}
 
     /*
-    Ans2:
-    Add     extends Candy to public class Chocolate
-
-    And     @Override
-            public double get_PricPerPound() {
-                return pricPerPound;
+    Ans3:
+    Add     public double get_PricPerPound(){
+                return this.pricPerPound;
             }
 
-            @Override
-            public String get_Name() {
-                return name;
+            public String get_Name(){
+                return this.name;
             }
     */
 
-    // End Of Question
+    // Q1: Override the taste method from the Candy class in the Chocolate class to return “tastes chocolately”. It should print “tastes sweet!” and then “tastes chocolately”.
+
+    /*
+    Ans1:
+    Add     extends Candy to public class Chocolate
+    And     @Override
+            public String taste() {
+                return "tastes chocolately";
+            }
+
+            public Chocolate(){}
+    */
+
+    // End Of Question 1
 }
