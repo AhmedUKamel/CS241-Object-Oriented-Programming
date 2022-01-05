@@ -12,11 +12,11 @@ ___
 6. Correct
 ___
 # 2> True or False ?
-### (a) True.
-### (b) True.
-### (c) False.
-### (d) True.
-### (e) True.
+1. True
+2. True
+3. False
+4. True
+5. True
 ___
 # 3> Which of the following is a correct interface ?
 1. Not correct
@@ -54,8 +54,9 @@ public static void average(ArrayList list){
 1. `ArrayList` of doubles
 ~~~java
 ArrayList<Double>ListName = new ArrayList<Double>();
+ArrayList<Double>ListName = new ArrayList<>();
 ~~~
-2. Append Object to list
+1. Append Object to list
 ~~~java
 ListName.add(Object);
 ~~~

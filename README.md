@@ -5,36 +5,36 @@ ___
 ## *This repository includes all java's tasks with solutions*
 ___
 # *Available:*
-* Tasks
-  * Task 1
-  * Task 2
-  * Task 3
-  * Task 4
-  * Task 5
-  * Task 6 (in progress)
-* Midterm exam
-* JavaFX Task
-  * Registration form project
-  * Portfolio project
-  * Shapes project
-* Exercises
-  * Exercise 1
-  * Exercise 2
-  * Exercise 3
-  * Exercise 4
-  * Exercise 5
-  * Exercise 6
-* Practical Models
-  * Model 2
-  * Model 3
-  * Model 4
-  * Model 5
+* [Tasks](https://github.com/AhmedKamel188/Java/tree/main/Tasks)
+  * [Task 1](https://github.com/AhmedKamel188/Java/tree/main/Tasks/Task%201)
+  * [Task 2](https://github.com/AhmedKamel188/Java/tree/main/Tasks/Task%202)
+  * [Task 3](https://github.com/AhmedKamel188/Java/tree/main/Tasks/Task%203)
+  * [Task 4](https://github.com/AhmedKamel188/Java/tree/main/Tasks/Task%204)
+  * [Task 5](https://github.com/AhmedKamel188/Java/tree/main/Tasks/Task%205)
+  * [Task 6 (in progress)](https://github.com/AhmedKamel188/Java/tree/main/Tasks/Task%206)
+* [Midterm exam](https://github.com/AhmedKamel188/Java/tree/main/Midterm%20Exam)
+* [JavaFX Task](https://github.com/AhmedKamel188/Java/tree/main/JavaFX%20Task)
+  * [Registration form project](https://github.com/AhmedKamel188/Java/tree/main/JavaFX%20Task/JavaFXproject)
+  * [Portfolio project](https://github.com/AhmedKamel188/Java/tree/main/JavaFX%20Task/PortfolioProject)
+  * [Shapes project](https://github.com/AhmedKamel188/Java/tree/main/JavaFX%20Task/ShapesProject)
+* [Exercises](https://github.com/AhmedKamel188/Java/tree/main/Exercises)
+  * [Exercise 1](https://github.com/AhmedKamel188/Java/tree/main/Exercises/Exercise_1)
+  * [Exercise 2](https://github.com/AhmedKamel188/Java/tree/main/Exercises/Exercise_2)
+  * [Exercise 3](https://github.com/AhmedKamel188/Java/tree/main/Exercises/Exercise_3)
+  * [Exercise 4](https://github.com/AhmedKamel188/Java/tree/main/Exercises/Exercise_4)
+  * [Exercise 5](https://github.com/AhmedKamel188/Java/tree/main/Exercises/Exercise_5)
+  * [Exercise 6](https://github.com/AhmedKamel188/Java/tree/main/Exercises/Exercise_6)
+* [Practical Models](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models)
+  * [Model 2](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model2)
+  * [Model 3](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model3)
+  * [Model 4](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model4)
+  * [Model 5](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model5)
 ___
 # *FCI Assuit:*
-* Midterm exam
-* Java Project
-* Sheets
-* Practical book
+* [Midterm exam](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Midterm)
+* [Java Project](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Project)
+* [Sheets](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Sheets)
+* [Practical book](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Practical%20Book)
 ___
 ## *Support me with follow ❤️✨*
 ### [Facebook](https://www.facebook.com/AhmedKamel11188)
