@@ -1,3 +1,4 @@
+![](https://miro.medium.com/max/600/1*m8SG-c1f65wgsvu3RxdrTw.png)
 # Object-Oriented Programming
 ## In Java
 ### FCAI Beni Suef University 2021
@@ -29,12 +30,6 @@ ___
   * [Model 3](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model3)
   * [Model 4](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model4)
   * [Model 5](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model5)
-___
-# *FCI Assuit:*
-* [Midterm exam](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Midterm)
-* [Java Project](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Project)
-* [Sheets](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Sheets)
-* [Practical book](https://github.com/AhmedKamel188/Java/tree/main/FCI%20Assuit/Practical%20Book)
 ___
 ## *Support me with follow ❤️✨*
 ### [Facebook](https://www.facebook.com/AhmedKamel11188)
