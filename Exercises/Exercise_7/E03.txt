@@ -1,0 +1,16 @@
+public class App {
+    public static void main(String...args){
+        print("A".charAt(0));
+    }
+
+    private static void print(char s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  A
+B)  65
+C)  'A'
+D)  No correct answer
+
+--> A

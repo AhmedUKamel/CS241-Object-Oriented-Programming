@@ -1,0 +1,12 @@
+abstract class Person {
+    // Variables
+    public int variable;
+    // Methods
+    abstract final void method();
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B 
+Illegal combination of modifiers: 'final' and 'abstract'

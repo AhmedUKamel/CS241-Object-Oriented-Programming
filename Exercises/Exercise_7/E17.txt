@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String...args){
+        print((int)"65");
+    }
+
+    private static void print(int s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  65
+B)  65.0
+C)  A
+D)  No correct answer
+
+--> D
+Error: Inconvertible types; cannot cast 'java.lang.String' to 'int'.

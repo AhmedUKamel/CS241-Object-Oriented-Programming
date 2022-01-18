@@ -1,0 +1,10 @@
+abstract class Person {
+    // Constructors
+    Person();
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B 
+Missing method body, or declare abstract

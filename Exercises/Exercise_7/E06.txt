@@ -1,0 +1,16 @@
+public class App {
+    public static void main(String...args){
+        print("Ahmed Hatem");
+    }
+
+    private static void print(String s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  Ahmed
+B)  Ahmed Hatem
+C)  Hatem
+D)  No correct answer
+
+--> B

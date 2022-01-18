@@ -1,0 +1,11 @@
+abstract class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public void method(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> A

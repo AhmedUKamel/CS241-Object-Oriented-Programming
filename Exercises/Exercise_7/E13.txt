@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String...args){
+        print(15.0);
+    }
+
+    private static void print(int s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  15
+B)  15.0
+C)  150
+D)  No correct answer
+
+--> D 
+Error: 'print(int)' in 'App' cannot be applied to '(double)'.

@@ -1,0 +1,12 @@
+private abstract class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public void method(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B
+Modifier 'private' not allowed here

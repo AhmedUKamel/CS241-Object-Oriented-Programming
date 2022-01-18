@@ -50,6 +50,7 @@ public static void average(ArrayList list){
         System.out.println("Average : "+avg);
     }
 ~~~
+___
 # 6> Code
 1. `ArrayList` of doubles
 ~~~java
@@ -84,4 +85,124 @@ ListName.get(INDEX).equals(Object);
 8. Retrieve an Object from List
 ~~~java
 ListName.get(INDEX);
+~~~
+___
+# 7> Identify the error in the following code
+~~~java
+ArrayList<String> list = new ArrayList<>();
+list.add("Denver");
+list.add("Austin");
+list.add(new java.util.Date());
+String city = list.get(0);
+list.set(3, "Dallas");
+System.out.println(list.get(3));
+~~~
+* Line 4: Can't add `Date type` to `String type`
+* Line 6: index 3 is out of range
+* Line 7: index 3 is out of range
+___
+# 8> What is the output of the following code
+~~~java
+ArrayList<Integer> list = new ArrayList<>();
+list.add(1);
+list.add(2);
+list.add(3);
+list.remove(1);
+System.out.println(list);
+~~~
+* Output:
+~~~
+[1, 3]
+~~~
+<br><p style="color:red;">Will delete the element with index 1, not element with value 1</p>
+___
+# 9> Can each of the following statement be Compiled ?
+* <p style="color:red;">Only <b>e</b> can't be Compiled because Double class has no empty Constructor</p>
+~~~java
+Double d = new Double();
+~~~
+* <p style="color:green;">All expressions can be compiled successfully</p>
+___
+# 10> Show the output of the following code
+~~~java
+public static void main(String[] args) {
+   Integer x = new Integer(3);
+   System.out.println(x.intValue());
+   System.out.println(x.compareTo(new Integer(4)));
+}
+~~~ 
+* Output: 
+~~~
+3
+-1
+~~~
+* Reference for [compareTo](https://www.w3schools.com/java/ref_string_compareto.asp) method.
+___
+# 11> What are thr output of the following expressions
+### Suppose s1, s2, s3 and s4 are four Strings, Given as following:
+~~~java
+String s1 = "Welcome to java";
+String s2 = s1;
+String s3 = new String("Welcome to java");
+String s4 = "Welcome to java";
+~~~
+* Point A
+~~~java
+s1 == s2
+true
+~~~
+* Point B
+~~~java
+s1 == s3
+false
+~~~
+* Point C
+~~~java
+s1 == s4
+true
+~~~
+* Point D
+~~~java
+s1.equals(s3)
+true
+~~~
+* Point E
+~~~java
+s1.equals(s4)
+true
+~~~
+* Point F
+~~~java
+"Welcome to java".replace("java", "HTML")
+Welcome to HTML
+~~~
+* Point G
+~~~java
+s1.replace('o', 't')
+Welctme tt java
+~~~
+* Point H
+~~~java
+s1.replaceAll("o", "t")
+Welctme tt java
+~~~
+* Point I
+~~~java
+s1.replaceFirst("o", "t")
+Welctme to java
+~~~
+* Point J
+~~~java
+s1.toCharArray()
+Welcome to java
+~~~
+___
+# 12> Code
+~~~java
+public static void main(String[] args) {
+   String s1 = "Welcome", s2 = "welcome";
+   String s3 = s1.replace('e', 'E');
+   s1 = "Welcome to Java and HTML".split(" ")[0];
+   s2 = "Welcome to Java and HTML".split(" ")[1];
+}
 ~~~

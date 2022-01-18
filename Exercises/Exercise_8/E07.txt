@@ -1,0 +1,12 @@
+public class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public void method1(){}
+    public char method2(){return 0;}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> A

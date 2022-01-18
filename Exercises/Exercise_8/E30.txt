@@ -1,0 +1,10 @@
+abstract class Person {
+    // Constructors
+    abstract Person();
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B 
+Modifier 'abstract' not allowed here

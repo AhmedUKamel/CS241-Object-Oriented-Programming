@@ -1,0 +1,14 @@
+abstract class Person {
+    // Variables
+    protected int variable;
+    // Methods
+    abstract void method(){
+        System.out.println("Abstract method");
+    }
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B 
+Abstract methods cannot have a body

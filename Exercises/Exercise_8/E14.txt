@@ -1,0 +1,12 @@
+abstract class Person {
+    // Variables
+    public int variable;
+    // Methods
+    abstract public void method(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B
+Abstract methods cannot have a body

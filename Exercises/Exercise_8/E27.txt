@@ -1,0 +1,13 @@
+abstract class Person {
+    // Variables
+    protected int variable;
+    // Methods
+    private static void method(){
+        System.out.println("Private static method");
+    }
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> A 

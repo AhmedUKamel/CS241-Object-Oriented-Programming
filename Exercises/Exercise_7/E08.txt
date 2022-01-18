@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String...args){
+        print(65);
+    }
+
+    private static void print(String s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  A
+B)  'A'
+C)  65
+D)  No correct answer
+
+--> D 
+Error: 'print(java.lang.String)' in 'App' cannot be applied to '(int)'.

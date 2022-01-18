@@ -1,0 +1,28 @@
+public class Person {
+    public static void printDetails(){
+        System.out.println("Person class");
+    }
+}
+public class Student extends Person {
+    public static void printDetails(){
+        Person.printDetails();
+        System.out.println("Student class");
+    }
+}
+public class App {
+    public static void main(String...args){
+        Person.printDetails();
+    }
+
+    private static void print(String s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  Person class
+B)  Student class
+C)  Person class
+    Student class
+D)  No correct answer
+
+--> A

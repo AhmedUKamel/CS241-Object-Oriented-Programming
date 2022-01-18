@@ -1,0 +1,12 @@
+abstract class Person {
+    // Variables
+    final int variable;
+    // Methods
+    final void method(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B 
+Variable 'variable' might not have been initialized

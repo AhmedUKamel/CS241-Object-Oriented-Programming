@@ -1,0 +1,13 @@
+public class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public void method(){}
+    public int method(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B
+the same signature.

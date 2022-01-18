@@ -1,0 +1,13 @@
+public class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public void method1();
+    public int method2(){return 0;}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B
+method1 doesn't has body

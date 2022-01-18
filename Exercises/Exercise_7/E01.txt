@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String...args){
+        print("A");
+    }
+
+    private static void print(char s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  A
+B)  65
+C)  'A'
+D)  No correct answer
+
+--> D
+Error: 'print(char)' in 'App' cannot be applied to '(java.lang.String)'

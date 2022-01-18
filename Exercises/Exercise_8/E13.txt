@@ -1,0 +1,12 @@
+abstract protected class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public void method(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B
+Modifier 'protected' not allowed here

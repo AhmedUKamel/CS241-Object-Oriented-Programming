@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String...args){
+        float f = 15.0;
+        print(f);
+    }
+
+    private static void print(double s){
+        System.out.print(s);
+    }
+}
+Output:
+A)  15.0
+B)  Invalid Call
+C)  Invalid initialization
+D)  No correct answer
+
+--> C

@@ -1,0 +1,9 @@
+abstract class Person {
+    // Constructors
+    Person(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> A 

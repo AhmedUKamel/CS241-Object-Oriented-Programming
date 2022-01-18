@@ -1,0 +1,13 @@
+public class Person {
+    // Variables
+    public int variable;
+    // Methods
+    public abstract void method1();
+    public void method2(){}
+}
+Correct syntax ?
+A)  yes
+B)  no
+
+--> B
+Abstract method in non-abstract class
