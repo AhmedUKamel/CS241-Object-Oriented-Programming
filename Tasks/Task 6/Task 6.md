@@ -1,12 +1,12 @@
 # 1> which of the following classes defines a legal abstract class ?
 ___
-1. Not correct
+1. Incorrect
    * Abstract methods do not specify a body.
-2. Not correct
+2. Incorrect
    * Syntax error on token `abstract`.
-3. Not correct
+3. Incorrect
    * The abstract method unfinished in type A can only be defined by an abstract class.
-4. Not correct
+4. Incorrect
    * This method requires a body instead of a semicolon.
 5. Correct
 6. Correct
@@ -19,11 +19,11 @@ ___
 5. True
 ___
 # 3> Which of the following is a correct interface ?
-1. Not correct
+1. Incorrect
    * Abstract methods do not specify a body.
-2. Not correct
+2. Incorrect
    * Abstract methods do not specify a body.
-3. Not correct
+3. Incorrect
    * Invalid method declaration; return type required.
 4. Correct
 5. Correct
