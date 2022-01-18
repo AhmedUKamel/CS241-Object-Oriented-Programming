@@ -32,10 +32,48 @@ ___
 # 4> Code
 ~~~java
 public interface Comparable {
-    public static max();
 }
-public class Shape implements Comparable {
 
+public class Shape implements Comparable {
+    public double area;
+    public Shape(double a){
+        this.area = a;
+    }
+    public Shape max(Shape s){
+        return (this.area > s.area)? this : s;
+    }
+    public static void main(String[] args) {
+        Circle c1 = new Circle(7);
+        Circle c2 = new Circle(6);
+        System.out.println(c1.max(c2).radius);
+        Rectangle r1 = new Rectangle(2, 3);
+        Rectangle r2 = new Rectangle(5, 4);
+        System.out.println(r1.max(r2).length);
+    }
+}
+
+public class Circle extends Shape {
+    public double radius;
+    public Circle(double r) {
+        super(r * r * 3.14);
+        this.radius = r;
+    }
+    public Circle max(Circle s){
+        return (this.radius > s.radius)? this : s;
+    }
+}
+
+public class Rectangle extends Shape {
+    public double length;
+    public double width;
+    public Rectangle(double l, double w){
+        super(2 * (l + w));
+        this.length = l;
+        this.width = w;
+    }
+    public Rectangle max(Rectangle r){
+        return (this.area > r.area)? this : r;
+    }
 }
 ~~~
 ___
