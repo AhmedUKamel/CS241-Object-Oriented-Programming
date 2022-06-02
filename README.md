@@ -34,5 +34,5 @@ ___
   * [Model 4](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model4)
   * [Model 5](https://github.com/AhmedKamel188/Java/tree/main/Practical%20Models/Model5)
 ___
-## * Contact me ❤️✨*
+## *Contact me ❤️✨*
 ### [Telegram](https://t.me/AhmedUKamel)
